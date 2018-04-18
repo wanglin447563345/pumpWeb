@@ -1,0 +1,40 @@
+@keyframes amFadeIn {
+  from {transform: scale(0)}
+  to{transform: scale(1)}
+}
+.user-layout {
+  height: 100%;
+  background: url("../../assets/images/login_bg.jpg") center no-repeat;
+  background-size: cover;
+  .my_form{
+    background:#ffffff;
+    border-radius:5px;
+    width:385px;
+    height: auto;
+    position: fixed;
+    right: 10%;
+    top:10%;
+    padding:25px 30px 30px;
+    animation:amFadeIn 0.5s;
+    nav{
+      a{
+        display: inline-block;
+        padding:8px 50px;
+        background:#eceff4;
+        border:1px solid #cad3df;
+        border-radius:5px 0 0 5px;
+        font-size:20px;
+        color:#8493a8;
+        text-align:left;
+        letter-spacing: 10px;
+        margin-bottom: 25px;
+        &.active{
+          background:#8493a8;
+          border:1px solid #cad3df;
+          color:#ffffff;
+        }
+      }
+    }
+  }
+
+}

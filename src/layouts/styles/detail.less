@@ -1,0 +1,124 @@
+.ant-layout{
+  min-height: 100%;
+  background:#f1f2f7;
+  .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 30px;
+    align-items: center;
+    background: #fff;
+    .help_center{
+      display: flex;
+      align-items: center;
+      p{
+        margin-bottom: 0;
+      }
+      a{
+        color:#000;
+        &.ant-dropdown-link{
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  .detail_content{
+    display: flex;
+    .left{
+      min-width: 320px;
+      max-width: 320px;
+      background: #fff;
+      .control{
+        display: flex;
+        justify-content:space-around;
+        padding-top: 11px;
+        .control_item{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background:#d7d7d7;
+          width:70px;
+          height:70px;
+          border-radius:50%;
+          font-size:14px;
+          color:#ffffff;
+          text-align: center;
+          &.control_item_active{
+            background:#9dbf16;
+          }
+        }
+      }
+      .control_btn{
+        display: flex;
+        justify-content: center;
+         margin:20px 0;
+        border-bottom:1px solid #cad3df;
+        padding-bottom: 30px;
+        .ant-switch{
+          height: 28px;
+          width:70px;
+          .ant-switch-inner{
+            line-height: 25px;
+            font-size:13px;
+            margin-left: 30px;
+          }
+          &:after{
+            height: 22px;
+            width:22px;
+          }
+          &.ant-switch-checked{
+            .ant-switch-inner{
+              line-height: 25px;
+              font-size:13px;
+              margin-left: 9px;
+            }
+          }
+          &.ant-switch-checked:after{
+            left:96%;
+          }
+        }
+        .ant-switch-checked{
+          background:#4fa7e8;
+
+        }
+       }
+      .control_info{
+        padding:0 21px 21px;
+        h3{
+          font-size:18px;
+          color:#54657e;
+          margin-bottom: 12px;
+          img{
+            vertical-align: middle;
+            margin-right: 6px;
+          }
+        }
+        p{
+          font-size:14px;
+          color:#54657e;
+          margin-bottom: 4px;
+        }
+      }
+    }
+    .right{
+      flex:1;
+      .ant-layout-header{
+        height: 45px;
+        line-height: 45px;
+        padding:0;
+        background:#30323d;
+        .ant-menu-item{
+          width:128px;
+          text-align: center;
+        }
+        .ant-menu-item-selected{
+          background:#55a9de;
+        }
+      }
+      .ant-layout-content{
+        padding:16px 14px;
+      }
+    }
+  }
+
+}
+
