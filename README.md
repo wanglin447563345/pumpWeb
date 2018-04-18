@@ -1,9 +1,9 @@
-# DVA-START
+# 技术栈
 
-使用dva 2、React 16、Antd3、Echarts
+使用了dva 2、React 16、Antd3、Echarts等技术
 
 
-## 使用
+## 安装运行
 
 ```bash
 $ git clone https://github.com/LANIF-UI/dva-boot.git
