@@ -17,7 +17,7 @@ import Setting from './Setting'
 
 const routesConfig = (app) => ([
   {
-    path: '/',
+    path: '/pump/user',
     title: '登录',
     indexRoute: '/pump/user/login',
     component: UserLayout,
