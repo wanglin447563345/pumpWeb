@@ -34,4 +34,6 @@ app.router(({ history, app }) => (
 // 5. Start
 app.start('#root');
 
+
+//这里可以配置全局变量
 window.dataUrl = "http://localhost/api/v1/";
