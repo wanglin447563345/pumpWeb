@@ -10,6 +10,7 @@ $ git clone https://github.com/LANIF-UI/dva-boot.git
 $ cd dva-start
 $ yarn,最好用yarn安装,npm和cnpm安装会运行报错
 $ yarn start
+打开http://localhost:3000/pump/user/login
 ```
 
 ## 登录用户名和密码
