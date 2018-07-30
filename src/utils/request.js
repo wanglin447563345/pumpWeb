@@ -33,8 +33,6 @@ export default function request(url, options) {
         newOptions.headers = {
             Accept: 'application/json',
             'Content-Type': 'application/json; charset=utf-8',
-            // 'X-Exxdata-Token': userInfo.token,
-            'X-Exxdata-Token': '322107e036475a026228428b06ed77cb',
             ...newOptions.headers,
         };
         newOptions.body = JSON.stringify(newOptions.body);
