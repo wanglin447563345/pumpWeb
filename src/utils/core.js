@@ -12,7 +12,7 @@ import assign from 'object-assign';
 export const dynamicWrapper = (app, models, component) => dynamic({
   app,
   models: () => models,
-  component: () => component,
+  component,
 });
 
 /**
