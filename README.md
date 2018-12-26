@@ -6,7 +6,7 @@
 ## 安装运行
 
 ```bash
-$ git clone https://github.com/LANIF-UI/dva-boot.git
+$ git clone https://github.com/wanglin447563345/pumpWeb.git
 $ cd dva-start
 $ yarn,最好用yarn安装,npm和cnpm安装会运行报错
 $ yarn start
